@@ -1,1 +1,1 @@
-# HeadingCalculator
+# Heading Calculator
