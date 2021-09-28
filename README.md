@@ -26,6 +26,6 @@ This software is distributed under a GNU General Public License version 3.
 ## How to cite 
 Coming soon!
 
-## Related links
+## Related tools
 * [Flight Separator](https://github.com/verticalphotoplacer/FlightSeparator)
 * [Vertical Photo Placer Plugin](https://github.com/verticalphotoplacer/VerticalPhotoPlacer)
