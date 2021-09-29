@@ -71,6 +71,13 @@ pyinstaller --onefile main.spec
 
 ## Usage
 
+<p align="center">
+  <img align="middle" src="https://github.com/verticalphotoplacer/HeadingCalculator/blob/master/docs/hc_howtouse.PNG?raw=true" alt="Heading Calculator usage">
+  <br>
+  <br>
+  <em><b>Figure 1. Using Heading Calculator</b></em>
+</p>
+
 ## Contributing
 
 If you find some issue that you are willing to fix, code contributions are welcome. 
