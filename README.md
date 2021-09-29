@@ -71,6 +71,8 @@ pyinstaller --onefile main.spec
 
 ## Usage
 
+Please follow the steps in Figure 1. The heading information is updated into each photo's metadata.
+
 <p align="center">
   <img align="middle" src="https://github.com/verticalphotoplacer/HeadingCalculator/blob/master/docs/hc_howtouse.PNG?raw=true" alt="Heading Calculator usage">
   <br>
