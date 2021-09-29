@@ -1,25 +1,30 @@
 # -*- coding: utf-8 -*-
 """
-/***************************************************************************
+/******************************************************************************************
  Heading Calculator
                                  A Standalone Desktop Application
- This tool performs calculation of heading angle for a list of photos taken
- by fix-wing drones.
+ This tool estimates heading angle for drone photos.
                               -------------------
         begin                : 2020-09-01
-        git sha              :
-        copyright            : (C) 2020 by Chubu University
-        email                : ts18851@chubu.ac.jp
- ***************************************************************************/
-
-/***************************************************************************
- *                                                                         *
- *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License as published by  *
- *   the Free Software Foundation; either version 2 of the License, or     *
- *   (at your option) any later version.                                   *
- *                                                                         *
- ***************************************************************************/
+        copyright            : (C) 2019-2021 by Chubu University and
+               National Research Institute for Earth Science and Disaster Resilience (NIED)
+        email                : chuc92man@gmail.com
+ ******************************************************************************************/
+/******************************************************************************************
+ *   This file is part of Heading Calculator.                                             *
+ *                                                                                        *
+ *   This program is free software; you can redistribute it and/or modify                 *
+ *   it under the terms of the GNU General Public License as published by                 *
+ *   the Free Software Foundation, version 3 of the License.                              *
+ *                                                                                        *
+ *   Heading Calculator is distributed in the hope that it will be useful,                *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or    *
+ *   FITNESS FOR A PARTICULAR PURPOSE.                                                    *
+ *   See the GNU General Public License for more details.                                 *
+ *                                                                                        *
+ *   You should have received a copy of the GNU General Public License along with         *
+ *   Heading Calculator. If not, see <http://www.gnu.org/licenses/>.                      *
+ ******************************************************************************************/
 """
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QApplication, QGraphicsScene, QFrame, QGraphicsItem
