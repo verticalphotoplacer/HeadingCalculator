@@ -14,7 +14,7 @@ Please download to your computer and double-click to run.
 ### Use as Python application
 
 Heading Calculator could be used as an Python application.
-It requires <b>exifread</b> library.
+It requires [exifread](https://pypi.org/project/ExifRead/) library.
 
 ```
 pip install exifread
