@@ -13,7 +13,7 @@ Please download to your computer and double-click to run.
 
 ### Use as Python application
 
-Heading Calculator could be used as an Python application.
+The Heading Calculator could be used as a Python application.
 It requires [exifread](https://pypi.org/project/ExifRead/) library.
 
 ```
@@ -30,7 +30,7 @@ python main.py
 ### Build local executable file
 
 [pyinstaller](https://www.pyinstaller.org/) is a recommended tool to build a local executable file.
-It is recommended to build from a minimal Python environment. This will exclude unnecessary packages and create minimum size executable file.
+It is recommended to build from a minimal Python environment. This will exclude unnecessary packages and create a minimum size executable file.
 
 1. Create and activate a virtual environment in your [Python installation](https://www.python.org/downloads/).
 
@@ -52,7 +52,7 @@ pip install exifread
 pip install pyinstaller
 ```
 
-3. Create specfile used in building the executable file
+3. Create spec file used in building the executable file
 
 ```
 cd your_path/heading_calculator
@@ -61,7 +61,7 @@ pyinstaller --onefile main.py
 
 4. Modify spec file to include all image/ui/exe/config file into the executable
 
-    Please refers to [main.spec](https://github.com/verticalphotoplacer/HeadingCalculator/blob/master/main.spec) file.
+    Please refer to [main.spec](https://github.com/verticalphotoplacer/HeadingCalculator/blob/master/main.spec) file.
 
 5. Create executable
 
