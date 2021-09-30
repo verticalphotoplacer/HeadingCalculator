@@ -20,7 +20,8 @@ It requires [exifread](https://pypi.org/project/ExifRead/) library.
 pip install exifread
 ```
 
-Then, navigate to your local heading_calculator directory and run main.py
+Then, navigate to your local heading_calculator directory and run main.py.
+This will open up the application user interface for use.
 
 ```
 cd your_path/heading_calculator
@@ -52,10 +53,17 @@ pip install exifread
 pip install pyinstaller
 ```
 
-3. Create spec file used in building the executable file
+4. Download the source code of Heading Calculator to your local machine
 
 ```
-cd your_path/heading_calculator
+git clone https://github.com/verticalphotoplacer/HeadingCalculator.git
+```
+
+6. Create spec file used in building the executable file
+
+```
+git clone
+cd your_path/HeadingCalculator
 pyinstaller --onefile main.py
 ```
 
@@ -68,6 +76,8 @@ pyinstaller --onefile main.py
 ```
 pyinstaller --onefile main.spec
 ```
+
+This will create an executable file in a new directory name <b>dist</b> (your_path/HeadingCalculator/dist)
 
 ## Usage
 
