@@ -1,6 +1,6 @@
 # Heading Calculator
 
-Heading Calculator tool estimates heading angle for drone photos. 
+Heading Calculator tool estimates camera's heading angle (like gimbal yaw angle) for drone photos. 
 
 ## Installation
 
