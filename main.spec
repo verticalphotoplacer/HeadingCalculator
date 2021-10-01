@@ -12,7 +12,7 @@ added_files = [
          ]
 		 
 a = Analysis(['main.py'],
-             pathex=['D:\\Research\\Oblique Photo Browser\\Code\\heading_calculator'],
+             pathex=['your_path_to_HeadingCalculator_folder'],
              binaries=[('tool/win/exiftool.exe', 'tool/win/')],
              datas=added_files,
              hiddenimports=[],
