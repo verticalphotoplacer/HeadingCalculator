@@ -20,11 +20,13 @@ It requires [exifread](https://pypi.org/project/ExifRead/) library.
 pip install exifread
 ```
 
-Then, navigate to your local heading_calculator directory and run main.py.
+Download the source code of Heading Calculator to your local machine. 
+Then, navigate to your local HeadingCalculator directory and run main.py.
 This will open up the application user interface for use.
 
 ```
-cd your_path/heading_calculator
+git clone https://github.com/verticalphotoplacer/HeadingCalculator.git
+cd HeadingCalculator
 python main.py
 ```
 
