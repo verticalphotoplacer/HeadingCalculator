@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 """
 /******************************************************************************************
  Heading Calculator
@@ -70,8 +71,6 @@ Example usage::
         print("{:20.20} {:20.20}".format(d["SourceFile"],
                                          d["EXIF:DateTimeOriginal"]))
 """
-
-from __future__ import unicode_literals
 
 import sys
 import subprocess

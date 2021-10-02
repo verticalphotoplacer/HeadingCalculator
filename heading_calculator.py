@@ -259,7 +259,7 @@ def headingCalculator(folder, imgexts, progress_callback):
     # run system command to update image with ground altitude information
     ## first, create a csv file
     csvname = join(folder, "update_heading.csv")
-    header_ = ["SourceFile", "GimbalYawDegree"]
+    header_ = ["SourceFile", "FlightYawDegree"]
     with open(csvname, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=header_, delimiter=',')
         writer.writeheader()
